@@ -16,10 +16,9 @@ logging.basicConfig(
     
 )
 if __name__ == "__main__":
-    logging.info("Logging has been configured.")
-    logging.info(f"Log file path: {LOG_FILE_PATH}")
-    logging.info("This is an info message.")
-    logging.error("This is an error message.")
-    logging.debug("This is a debug message.")
-    logging.warning("This is a warning message.")
-    logging.critical("This is a critical message.")
+    logging.info("Logging setup complete")
+    logging.info("This is an info message")
+    logging.error("This is an error message")
+    logging.debug("This is a debug message")
+    logging.warning("This is a warning message")
+    logging.critical("This is a critical message")
