@@ -7,4 +7,5 @@ xgboost
 catboost
 lightgbm
 statsmodels
+category_encoders
 #-e .
